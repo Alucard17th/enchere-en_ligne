@@ -1,0 +1,78 @@
+.portfolio-item {
+    margin-bottom: 25px;
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.card-body {
+    padding: 2px 16px;
+}
+
+.card-img{
+    max-height: 200px;
+    max-width: 200px;
+    width: auto;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+
+.clickable{
+    cursor: pointer;
+}
+
+.not-clickable{
+    cursor: default;
+}
+
+table.table-align-middle td, table.table-align-middle th {
+    vertical-align: middle!important;
+    text-align: center!important;
+}
+
+table.table-align-middle td > img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.media-object {
+    max-width: 25em;
+}
+
+.badge {
+    padding: 1px 9px 2px;
+    font-size: 12.025px;
+    font-weight: bold;
+    white-space: nowrap;
+    color: #ffffff;
+    background-color: #999999;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+}
+.badge-error {
+    background-color: #d9534f;
+}
+.badge-warning {
+    background-color: #f0ad4e;
+}
+.badge-success {
+    background-color: #5cb85c;
+}
+.badge-info {
+    background-color: #5bc0de;
+}
+.badge-primary {
+    background-color: #337ab7;
+}
